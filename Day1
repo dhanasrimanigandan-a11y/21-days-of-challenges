@@ -1,15 +1,14 @@
 // Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
 import java.util.Scanner;
 
-public class evenOdd{
-   }
+public class Day1{
 
-   public static void main(String[] var0) {
-      System.out.print("Welcome to Java");
-      System.out.print("To find even or odd");
-      Scanner var1 = new Scanner(System.in);
-      int var2 = var1.nextInt();
-      if (var2 % 2 == 0) {
+   public static void main(String[] args) {
+      System.out.println("Welcome to Java");
+      System.out.println("To find even or odd");
+      Scanner scan = new Scanner(System.in);
+      int n = scan.nextInt();
+      if (n % 2 == 0) {
          System.out.println("Even number");
       } else {
          System.out.println("odd number");
