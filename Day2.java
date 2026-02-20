@@ -8,5 +8,6 @@ class Day2{
        else{
         System.out.println("prime");
        }
+       }
     }
 }
