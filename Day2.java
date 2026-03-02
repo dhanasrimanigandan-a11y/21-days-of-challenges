@@ -1,13 +1,20 @@
+import java.util.Scanner;
 class Day2{
     public static void main(String[] args){
-       int c=11;
-       for(int i=2;i<10;i++){
-       if(c%i==0){
-        System.out.println("not prime");
+       Scanner scan=new Scanner(System.in);
+       System.out.println("Enter the numbers:");
+       int a=scan.nextInt();
+       int count=0;
+       for(int i=1;i<=a;i++){
+        if(a%i==0){
+            count++;
+        }
+       }
+       if(count==2){
+        System.out.println(a+ " is a prime number ");
        }
        else{
-        System.out.println("prime");
-       }
+        System.out.println(a+ " is not a prime number");
        }
     }
 }
