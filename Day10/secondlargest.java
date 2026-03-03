@@ -3,7 +3,7 @@ public class secondlargest{
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
         System.out.println("Enter a number:");
-        int a=scan.nextInt();;
+        int a=scan.nextInt();
         int secondlargest=0;
         int b=0;
         while(a>0){
